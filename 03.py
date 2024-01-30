@@ -15,3 +15,6 @@ for word, count in counts.items():
         bigcount = count
 
 print(bigword, bigcount)
+
+
+#print( sorted([ (v,k) for k,v in c.items() ], reverse=True) )
