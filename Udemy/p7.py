@@ -11,7 +11,7 @@ display = []
 for x in range(word_len):
   display += "_"
 
-#print(display)
+#print(chosen_word)
 print(f"{' '.join(display)}")
 
 end_of_game = False
@@ -24,9 +24,8 @@ while not end_of_game:
     print(f"You've already guessed {guess}")
 
   for position in range(word_len):
-    letter = chosen_word[position]
-    if letter == guess:
-      display[position] = letter
+    if guess == chosen_word[position]:
+      display[position] = chosen_word[position]
 
   if guess not in chosen_word:
     print(f"You guessed {guess}, that's not in the word. You lose a life.")
