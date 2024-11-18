@@ -6,7 +6,7 @@ data = [
   'country': 'United States'
 }, {
   'name': 'Cristiano Ronaldo',
-  'follower count': 215,
+  'follower_count': 215,
   'description': 'Footballer',
   'country': 'Portugal'
 }, {
