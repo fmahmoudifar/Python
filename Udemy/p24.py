@@ -12,4 +12,3 @@
 
 with open("p24.txt" , "a") as file:
     file.write("\nNew text.")
-    #ss
